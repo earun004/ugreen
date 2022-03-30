@@ -1,0 +1,55 @@
+export const SIGNIN = "SIGNIN";
+export const SIGNUP = "SIGNUP";
+export const LOGOUT = "LOGOUT";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const FETCH_LOGINS = "FETCH_LOGINS";
+export const ADD_PRODUCT = "ADD_PRODUCT";
+export const FETCH_PRODUCTS = "FETCH_PRODUCTS";
+export const FETCH_PRODUCT = "FETCH_PRODUCT";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+export const FETCH_DAILY = "FETCH_DAILY";
+export const ADMIN_SIGNIN = "ADMIN_SIGNIN";
+export const FETCH_CART_ITEMS = "FETCH_CART_ITEMS";
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+export const ADD_BLOGS = "ADD_BLOGS";
+export const FETCH_BLOGS = "FETCH_BLOGS";
+export const UPDATE_BLOGS = "UPDATE_BLOGS";
+export const DELETE_BLOGS = "DELETE_BLOGS";
+export const FETCH_THREE_PRODUCTS = "FETCH_THREE_PRODUCTS";
+export const UPDATE_COUNT_NUM = "UPDATE_COUNT_NUM";
+export const FETCH_COMMENTS = "FETCH_COMMENTS";
+export const UPDATE_COMMENTS = "UPDATE_COMMENTS";
+export const DELETE_COMMENTS = "DELETE_COMMENTS";
+export const ADD_COMMENTS = "ADD_COMMENTS";
+export const UPDATE_PRODUCT_COUNT_SUB = "UPDATE_PRODUCT_COUNT_SUB";
+export const ADD_PRODUCT_TO_CART = "ADD_PRODUCT_TO_CART";
+export const FETCH_BANNERS = "FETCH_BANNERS";
+export const UPDATE_BANNER = "UPDATE_BANNER";
+export const DELETE_BANNER = "DELETE_BANNER";
+export const ADD_BANNER = "ADD_BANNER";
+export const COUNT_VISITORS = "COUNT_VISITORS";
+
+// orders
+export const ADD_ORDERS = "ADD_ORDERS";
+export const FETCH_ORDERS = "FETCH_ORDERS";
+export const UPDATE_ORDERS = "UPDATE_ORDERS";
+export const DELETE_ORDERS = "DELETE_ORDERS";
+
+// ADDRESS
+export const ADD_ADDRESS = "ADD_ADDRESS";
+export const FETCH_ADDRESS = "FETCH_ADDRESS";
+export const UPDATE_ADDRESS = "UPDATE_ADDRESS";
+export const DELETE_ADDRESS = "DELETE_ADDRESS";
+
+// USERS
+export const ADD_USERS = "ADD_USERS";
+export const FETCH_USERS = "FETCH_USERS";
+export const UPDATE_USERS = "UPDATE_USERS";
+export const DELETE_USERS = "DELETE_USERS";
+
+// Headings
+export const ADD_HEADING = "ADD_HEADING";
+export const FETCH_HEADING = "FETCH_HEADING";
+export const UPDATE_HEADING = "UPDATE_HEADING";
+export const DELETE_HEADING = "DELETE_HEADING";

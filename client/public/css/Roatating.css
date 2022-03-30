@@ -1,0 +1,39 @@
+.aboutContent {
+  font-size: 1.3rem;
+}
+
+.aboutWrapper {
+  height: 25px;
+  overflow: hidden;
+}
+.words {
+  overflow: hidden;
+  margin: auto 0.1rem;
+}
+.words span {
+  display: block;
+  color: #70996b;
+  animation: spin_words 10s infinite;
+  animation-delay: 2s;
+  font-weight: bolder;
+}
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+}
