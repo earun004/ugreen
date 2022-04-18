@@ -24,7 +24,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache : npm 
-        client : npm ci
+        cache : client
+    - run: npm ci
     - run: npm ci
     - run: npm run dev
