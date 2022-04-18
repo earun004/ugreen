@@ -26,6 +26,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache : npm 
     - run: npm ci
-      id : add client
+    - id : add client
     - run: npm ci
     - run: npm run dev
